@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_milk(groceries)
-  groceries.values
+  groceries.keys
   binding.pry
 end
